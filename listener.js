@@ -33,7 +33,35 @@ function queryChanger(request) {
 }
 
 // Options inserted into request listener
-const urlfilter = {urls: ["https://www.google.com/search?*"], types: ['main_frame', 'sub_frame']}
+const urlfilter = {urls: [
+  "*://*.google.com/search?*",
+  "*://*.google.co.jp/search?*",
+  "*://*.google.co.uk/search?*", 
+  "*://*.google.es/search?*", 
+  "*://*.google.ca/search?*",
+  "*://*.google.it/search?*",
+  "*://*.google.fr/search?*",
+  "*://*.google.com.au/search?*",
+  "*://*.google.com.tw/search?*",
+  "*://*.google.nl/search?*",
+  "*://*.google.com.br/search?*",
+  "*://*.google.com.tr/search?*",
+  "*://*.google.be/search?*",
+  "*://*.google.com.gr/search?*",
+  "*://*.google.co.in/search?*",
+  "*://*.google.com.mx/search?*",
+  "*://*.google.dk/search?*",
+  "*://*.google.com.ar/search?*",
+  "*://*.google.ch/search?*",
+  "*://*.google.cl/search?*",
+  "*://*.google.at/search?*",
+  "*://*.google.co.kr/search?*",
+  "*://*.google.ie/search?*",
+  "*://*.google.com.co/search?*",
+  "*://*.google.pl/search?*",
+  "*://*.google.pt/search?*",
+  "*://*.google.com.pk/search?*"
+], types: ['main_frame', 'sub_frame']}
 const opt_extraInfoSpec = ["blocking"];
 
 // The request listener
