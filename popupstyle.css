@@ -1,0 +1,70 @@
+@import url(https://fonts.googleapis.com/css?family=Montserrat:400,700);
+
+.wrapper {
+    height: 350px;
+    width: 200px;
+}
+.form-radio {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    display: inline-block;
+    position: relative;
+    background-color: #f1f1f1;
+    color: #666;
+    top: 10px;
+    height: 20px;
+    width: 25px;
+    border: 0;
+    border-radius: 50px;
+    cursor: pointer;     
+    margin-right: 7px;
+    outline: none;
+} 
+.form-radio:checked::before {
+    position: absolute;
+    font: 13px/1 'Open Sans', sans-serif;
+    left: 9px;
+    top: 3px;
+    content: '\02143';
+    transform: rotate(40deg);
+}
+.form-radio:hover {
+    background-color: #757cbd;
+}
+.form-radio:checked {
+    background-color: #2a1ecf;
+    color: white;
+}
+label {
+    position: relative;
+    display: inline-block;
+    top: 4px;
+    margin-top: 5px;
+    font: 12px 'Open Sans', sans-serif;
+    color: #666;
+    cursor: pointer;
+} 
+.btn {
+    font-family: 'Montserrat', Arial, Helvetica, sans-serif;
+    font-size: 0.9em;
+    height: 40px;
+    width: 130px;
+    padding: 5px 5px;
+    color: #fff;
+    transition: all 0.3s;
+    transition: all 0.3s;
+    font-weight:700;
+    border-radius: 5px;
+    border: 2px solid blue;
+    background-color: blue;
+    font-weight: bold;
+    cursor: pointer;
+    outline: none;
+}
+.btn:hover, .btn-normal:focus {
+    color: white;
+    border-color: rgb(1, 1, 116);
+    background-color: rgb(1, 1, 116);
+    text-decoration: none;
+}

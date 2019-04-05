@@ -1,0 +1,26 @@
+{
+  "name": "Search Age Limiter for Google Search",
+  "version": "1.0",
+  "description": "Set and save an age limit for search results. For example, always only display results of at most 1 year old.",
+  "permissions": ["webRequest", "webRequestBlocking", "contextMenus", "*://*.google.com/*", "storage"],
+  "background": {
+    "scripts": ["listener.js"]
+  },
+  "browser_action": {
+    "default_title": "Search Age Limiter",
+    "default_popup": "popup.html",
+    "default_icon": {
+      "16": "images/icon16.png",
+      "32": "images/icon32.png",
+      "48": "images/icon48.png",
+      "128": "images/icon128.png"
+    }
+  },
+  "icons": {
+    "16": "images/icon16.png",
+    "32": "images/icon32.png",
+    "48": "images/icon48.png",
+    "128": "images/icon128.png"
+  },
+  "manifest_version": 2
+}
