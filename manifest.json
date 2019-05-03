@@ -1,7 +1,7 @@
 {
   "short_name": "Search Age Limiter",
-  "name": "Search Age Limiter for Google Search",
-  "version": "1.0",
+  "name": "Result Age Limiter for Google Search",
+  "version": "1.0.1",
   "description": "Set and save an age limit for search results. For example, always only display results of at most 1 year old.",
   "permissions": ["webRequest", "webRequestBlocking", "contextMenus", "storage", 
     "*://*.google.com/*",
